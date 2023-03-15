@@ -10,11 +10,12 @@
         android:id="@+id/edit1"
         android:layout_width="411dp"
         android:layout_height="62dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="160dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,11 +23,32 @@
         android:id="@+id/edit2"
         android:layout_width="409dp"
         android:layout_height="74dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="number"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="266dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pacman" />
 </androidx.constraintlayout.widget.ConstraintLayout>
