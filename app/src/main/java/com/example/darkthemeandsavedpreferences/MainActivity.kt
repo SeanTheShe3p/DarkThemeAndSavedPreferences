@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             editor.apply {
                 putBoolean("dark", true)
                 apply()
-            }
+            }}
             if (isCheckedDark){
                 editor.apply {
                     putBoolean("dark", false)
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             val intent = intent
             finish()
             startActivity(intent)
-        }
+
     }
     override fun onPause() {
         super.onPause()
